@@ -248,4 +248,6 @@ That said, this implementation of the Black-Scholes model does not take into acc
 stock. "AAPL" for example pays a dividend. However, in this challenge there is no value provided for the dividend of 
 the stock. Therefore, we can use the current implementation of the Black-Scholes model to complete the challenge.
 
+Challenge provided by https://alpaca.markets/options
+
 Reference: https://www.codearmo.com/python-tutorial/options-trading-black-scholes-model
