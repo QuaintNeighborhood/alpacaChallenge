@@ -253,7 +253,7 @@ def premium(option_name, option_val, stock_data, r, T):
         return BS_CALL(stock_price, strike_price, T, r, annualized_vol)
     else:
         return BS_PUT(stock_price, strike_price, T, r, annualized_vol)
-  
+
 
 print(round(sum([round(premium(k, v, data["s"], r=0.05, T=0.13778), 2) for k, v in data["c"].items()]), 2))
 
