@@ -247,3 +247,5 @@ options and get the correct answer of 463.29.
 That said, this implementation of the Black-Scholes model does not take into account the dividends paid out by the 
 stock. "AAPL" for example pays a dividend. However, in this challenge there is no value provided for the dividend of 
 the stock. Therefore, we can use the current implementation of the Black-Scholes model to complete the challenge.
+
+Reference: https://www.codearmo.com/python-tutorial/options-trading-black-scholes-model
